@@ -34,7 +34,7 @@ start(){}
 Untuk melakukan proses tanpa harus ada trigger event atau action khusus lainnya
 
 -What usage of Watch Properties ?
-Biasa saya gunakan untuk suatu event yang melakukan perubahan/update secara terus menerus seperti timer, atau onkeypress dan semacamnya
+Biasa saya gunakan untuk suatu event yang melakukan perubahan/update secara terus menerus seperti timer, atau onkeypress dan semacamnya pada data yang berubah
 
 -How to handling input in Vue ?
 v-model dan $refs
@@ -76,7 +76,7 @@ Props berfungsi sebagai tempat menyimpan/mendapatkan value yang ter-inisialisasi
 Component berfungsi untuk membuat module terpisah agar rapi dan terstruktur dan bisa dipakai dimana saja.
 
 -How to pass property from parent component to child component ?
-just import it man
+Menggunakan props
 
 -What is Vuex ?
 Vuex adalah state management dalam vue, contoh yang sekarang saya gunakan. Ada satu API yang harus saya gunakan dalam 3 komponen, jadi saya membuat vuex agar setiap komponen tidak perlu membuat methods sendiri2.
